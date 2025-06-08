@@ -4,6 +4,8 @@ node --i
 npm --v
 npm install -- global gulp-cli
 
+testiruem
+
 npm install --save-dev gulp
 
 npm i //двигаемся в новую папку
