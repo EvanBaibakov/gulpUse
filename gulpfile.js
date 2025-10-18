@@ -68,6 +68,7 @@ function html() {
             layouts: srcPath + "tpl/layouts/",
             partials: srcPath + "tpl/partials/",
             data: srcPath + "tpl/data/"
+            // pages: srcPath + "tpl/pages" //доработка !!!!
         }))
         .pipe(dest(path.build.html)) //доставка куда доставить построенное 
         .pipe(browserSync.reload({ stream: true })); //шоб работал
